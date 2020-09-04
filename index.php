@@ -17,18 +17,20 @@ album per artista
 
  -->
 
- <?php 
+<?php 
     require 'data.php';
 ?>
 
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -45,23 +47,24 @@ album per artista
 
             <div class="foreach">
 
-            <div><img src="<?php echo $value['poster'];?>" alt=""></div>
-            <div class="title"> <?php echo $value['title']?>;</div>
-            <div class="author"><?php echo $value['author']?>;</div>
-            <div class="genre"><?php echo $value['genre']?>;</div>
-            <div class="year"><?php echo $value['year']?>;</div>
+                <div><img src="<?php echo $value['poster'];?>" alt=""></div>
+                <div class="title"> <?php echo $value['title']?>;</div>
+                <div class="author"><?php echo $value['author']?>;</div>
+                <div class="genre"><?php echo $value['genre']?>;</div>
+                <div class="year"><?php echo $value['year']?>;</div>
 
             </div>
-           <?php
+            <?php
         };
         ?>
 
         </div>
-        
-        
+
+
     </main>
     <footer>
 
     </footer>
-    </body>
+</body>
+
 </html>
