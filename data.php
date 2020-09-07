@@ -1,5 +1,5 @@
 <?php 
-
+ header('Content-type: application/json');
 $data =[
     "success" => true,
     "response" => [
@@ -76,5 +76,5 @@ $data =[
     ]
  ];
 
-
+echo json_encode($data);
 ?>

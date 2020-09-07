@@ -1,6 +1,6 @@
 $.ajax({
-    URL:'data.php',
-    METHOD:'GET',
+    url:'data.php',
+    method:'GET',
     success: function(data){
         var results = data['response'];
         console.log(results);
