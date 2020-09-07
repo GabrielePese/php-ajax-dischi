@@ -19,3 +19,5 @@ for (var i = 0; i < data.length; i++){
     var dataHTML = compiled(data);
     target.append(dataHTML);
 }
+
+console.log($("#template"));
