@@ -14,7 +14,7 @@ var template = $("#template").html();
 var compiled = Handlebars.compile(template);
 var target = $("#contenitore");
 
-for (var i = 0; i < test.length; i++){
+for (var i = 0; i < data.length; i++){
     var data = data[i];
     var dataHTML = compiled(data);
     target.append(dataHTML);
